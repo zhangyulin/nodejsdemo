@@ -1,0 +1,37 @@
+extends header
+
+block content
+  .container.nav
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='#') ADLEIDA
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav
+        li.active
+          a(href='adver') 广告投放
+        li
+          a(href='support') 技术支持
+        li
+          a(href='#contact') 联系我们
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            | 其他
+            b.caret
+          ul.dropdown-menu
+            li
+              a(href='#') Action
+            li
+              a(href='#') Another action
+            li
+              a(href='#') Something else here
+            li.divider
+            li.dropdown-header Nav header
+            li
+              a(href='#') Separated link
+            li
+              a(href='#') One more separated link
+  h1= title
+  p Welcome to #{title}

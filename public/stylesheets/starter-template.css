@@ -1,0 +1,20 @@
+body {
+
+}
+.bg{
+  background: white;
+}
+.top{
+  height:30px;
+  background: #cccccc;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.nav{
+  background: #93D8F1;
+ }
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+//
+   Created by python on 7/7/15.
+
+html(lang='en')
+   head
+   body
+      meta(charset='utf-8')
+      // <Bootstrap>core CSS</Bootstrap>
+      link(href='stylesheets/bootstrap.css', rel='stylesheet')
+      link(rel='stylesheet', href='/stylesheets/style.css')
+      // <Custom>styles for this template</Custom>
+      link(href='stylesheets/starter-template.css', rel='stylesheet')
+      // <HTML5>shim and Respond.js IE8 support of HTML5 elements and media queries</HTML5>
+      //if lt IE 9
+        script(src='/bootstrap-3.0.0/assets/js/html5shiv.js')
+        script(src='/bootstrap-3.0.0/assets/js/respond.min.js')
+
+      .container.top
+         p.text-danger 公告提示
+      block content
+
+      script(src='javascripts/jquery.js')
+         //
+      script(src='javascripts/bootstrap.min.js')
+         //
+      script(src='javascripts/analytics.js')
+   // /.nav-collapse
